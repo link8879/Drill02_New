@@ -27,13 +27,16 @@ def run_rectangle():
     print('RECTANGLE')
 
     # bottom line
-    for x in range(50,750+1,5):
-        render_frame(x,90) # x,y위치에 캐릭터 그려줄수 있는 
-    
+    #for x in range(50,750+1,5):
+        #render_frame(x,90) # x,y위치에 캐릭터 그려줄수 있는 
+
+    # top line
+    for x in range(750, 50-1, -5):
+        render_frame(x, 550)
 
 
 while True:
-     run_circle()
+     #run_circle()
      run_rectangle()
      break
 

@@ -31,10 +31,12 @@ def run_rectangle():
         #render_frame(x,90) # x,y위치에 캐릭터 그려줄수 있는 
 
     # top line
-    for x in range(750, 50-1, -5):
-        render_frame(x, 550)
+    #for x in range(750, 50-1, -5):
+        #render_frame(x, 550)
 
-
+    # right line
+    for y in range(90,550,5):
+        render_frame(750, y)
 while True:
      #run_circle()
      run_rectangle()
